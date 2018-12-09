@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="@string/search" />
+
+        <item
+            android:id="@+id/nav_data_base"
+            android:icon="@drawable/ic_save_black_24dp"
+            android:title="@string/data_base" />
+    </group>
+
+    <item android:title="@string/menu_text_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_text_share" />
+
+        </menu>
+    </item>
+
+</menu>
